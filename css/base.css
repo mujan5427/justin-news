@@ -375,22 +375,14 @@ body .footer {
 
 /* article.html is below this comment  */
 
-.article-area-1 > div {
-  display: inline-block;
-}
-
 .article-area-1-content {
-  width: 70%;
-  line-height: 32px;
-}
-
-.article-content {
-  margin: 40px 7% 0;
+  text-align: justify;
 }
 
 .article-area-1-content > h1 {
-  font-size: 2.4em;
-  line-height: 45px;
+  font-size: 2.2em;
+  font-weight: bold;
+  line-height: 1.2em;
   margin: 20px 0;
   padding-bottom: 20px;
   border-bottom: 3px solid #cccccc;
@@ -398,19 +390,10 @@ body .footer {
 
 .article-info-and-share {
   margin: 20px 0;
-}
-
-.article-info-and-share > div {
-  display: inline-block;
-  width: 475px;
-}
-
-.article-info-and-share > div:first-child {
-  text-align: left;
-}
-
-.article-info-and-share > div:last-child {
-  text-align: right;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .official-font-color {
@@ -425,15 +408,16 @@ body .footer {
   background: #dddddd;
 }
 
-.article-content > h3 {
-  margin: 30px 0;
-  font-size: 22px;
-  font-weight: bold;
+.article-content > p {
+  font-size: 1.4em;
+  line-height: 1.25em;
+  letter-spacing: .2em;
 }
 
-.article-content > p {
-  font-size: 20px;
-  letter-spacing: 2.5px;
+.article-content > h3 {
+  margin: 30px 0;
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 .article-area-1-main-photo > img {
@@ -444,23 +428,18 @@ body .footer {
 .article-area-1-main-photo > figcaption {
   background: #eeeeee;
   padding: 10px;
+  line-height: 1.25em;
+  letter-spacing: .2em;
 }
 
-.article-area-1-right-side {
-  float: right;
-  width: 30%;
-}
-
-.article-area-1-right-side > h3 {
+.article-area-3 > h3 {
   padding: 15px 20px;
-  margin-left: 30px;
   background: #eeeeee;
   color: #ff5a5f;
   font-weight: bold;
 }
 
 .article-list {
-  padding: 0 50px;
   margin-bottom: 50px;
   font-size: 20px;
   letter-spacing: 2.5px;
@@ -494,10 +473,6 @@ body .footer {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-}
-
-.recommand-article-list > div {
-  width: 32%;
 }
 
 .recommand-article-list img {

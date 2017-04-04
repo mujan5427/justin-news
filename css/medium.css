@@ -29,6 +29,19 @@
   justify-content: space-between;
 }
 
+.article-area {
+  padding: 0 10px;
+}
+
+.article-info-and-share > div:first-child {
+  margin-bottom: 10px;
+}
+
+.article-content {
+  margin: 40px 0 0;
+}
+
+
 .footer-section1 {
   display: flex;
   flex-flow: column nowrap;
