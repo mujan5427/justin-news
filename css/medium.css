@@ -1,0 +1,47 @@
+/* 裝置螢幕寬度在 768px 以下 */
+
+.logo {
+  font-size: 22px;
+}
+
+.disable-in-mweb {
+  display: none;
+}
+
+.content {
+  padding: 70px 0 0;
+}
+
+.slider-bar-image-clip-box {
+  width: 100%;
+  max-width: 100%;
+}
+
+.slider-bar-title {
+  padding: 10px;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.article-row {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.footer-section1 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-section2 {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 50px 0;
+  margin-top: 70px;
+  border-top: 1px solid #cccccc;
+}
