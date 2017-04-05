@@ -504,6 +504,9 @@ body .footer {
 }
 
 .custom-input-box input[type=text] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   color: #76787a;
   font-size: inherit;
   box-shadow: none;
