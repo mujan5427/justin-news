@@ -503,23 +503,17 @@ body .footer {
   margin-bottom: 10px;
 }
 
-.custom-input-box input[type=text] {
+.custom-input-box .text {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  border: 1px solid #aaa;
   color: #76787a;
   font-size: inherit;
-  box-shadow: none;
+  border-radius: 4px;
   background-color: #ffffff;
   padding: 14px 12px;
   width: 100%;
-  border: 0;
-  border-radius: inherit;
-}
-
-.text {
-  border: 1px solid #aaa;
-  border-radius: 4px;
 }
 
 .vertical-middle-53 {
