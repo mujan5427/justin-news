@@ -119,3 +119,19 @@
 .signup-area {
   margin: 30px 20%;
 }
+
+/* Popup Dialog Login is below this comment */
+
+.dialog-box {
+  position: relative;
+  background: #ffffff;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px 20px;
+  top: 50%;
+  left: 50%;
+  /* calc(-50%, - 35px) The 35px equal height of header divided by 2*/
+  transform: translate(-50%, calc(-50% - 35px));
+}
