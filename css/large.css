@@ -135,3 +135,15 @@
   /* calc(-50%, - 35px) The 35px equal height of header divided by 2*/
   transform: translate(-50%, calc(-50% - 35px));
 }
+
+/* channel.html is below this comment */
+
+.channel-list {
+  margin-bottom: 50px;
+  font-size: 1.4em;
+}
+
+.channel-list img {
+  max-height: 240px;
+  margin-right: 10px;
+}

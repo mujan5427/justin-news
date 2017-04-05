@@ -74,3 +74,10 @@
 .dialog-box-background {
   height: calc(100% - 70px);
 }
+
+/* channel.html is below this comment */
+
+.channel-list img {
+  max-height: 65px;
+  margin-right: 10px;
+}
