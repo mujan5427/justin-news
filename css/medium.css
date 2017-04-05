@@ -12,6 +12,10 @@
   padding: 70px 0 0;
 }
 
+.search-box-background {
+  height: calc(100% - 70px);
+}
+
 .slider-bar-image-clip-box {
   width: 100%;
   max-width: 100%;
