@@ -508,6 +508,7 @@ body .footer {
   color: #76787a;
   font-size: inherit;
   border-radius: 4px;
+  box-shadow: none;
   background-color: #ffffff;
   padding: 14px 12px;
   width: 100%;
