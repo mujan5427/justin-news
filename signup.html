@@ -2,22 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>註冊 - Justin News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin News</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="css/large.css" media="(min-width: 769px)">
   </head>
 
   <body>
 
     <!-- Header -->
     <header class="header">
-      <div class="logo">Justin News</div>
+      <a class="logo" href="">Justin News</a>
       <div class="navbar">
         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-        <a href="#">我的收藏</a>
-        <a href="#">登入</a>
-        <a href="#">註冊</a>
+        <a class="show-in-mweb" href="#">選單</a>
+        <a class="disable-in-mweb" href="#">國際</a>
+        <a class="disable-in-mweb" href="#">財經</a>
+        <a class="disable-in-mweb" href="#">生活</a>
+        <a class="disable-in-mweb" href="#">登入</a>
+        <a class="disable-in-mweb" href="#">註冊</a>
       </div>
     </header>
 
@@ -225,9 +231,9 @@
         </div>
 
         <div class="custom-input-box">
-          <label>電子郵件地址</label>
+          <label>電子郵件</label>
           <div>
-            <input class="text" placeholder="電子郵件信箱">
+            <input class="text">
             <div class="form-tip">我們不會向其他Justin News用戶透露您的個人電子郵件地址。</div>
           </div>
         </div>
@@ -370,17 +376,10 @@
           <a href="#"><div class="footer-icon"><i class="fa fa-qq" aria-hidden="true"></i></div></a>
           <a href="#"><div class="footer-icon"><i class="fa fa-wechat" aria-hidden="true"></i></div></a>
         </div>
-        <div>
-          <h4 class="footer-title">資料來源</h4>
-          <select name="country">
-            <option value="newsla">Newsla</option>
-            <option value="upmedia">上報</option>
-            <option value="stormmedia">風傳媒</option>
-          </select>
-        </div>
       </div>
       <div class="footer-section2">
-        <div>COPYRIGHT © 2016 Justin News All rights reserved.</div>
+        <div>COPYRIGHT © 2017 Justin News</div>
+        <div>&nbsp;All rights reserved.</div>
       </div>
     </footer>
 
