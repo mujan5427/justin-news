@@ -77,7 +77,12 @@
 
 /* channel.html is below this comment */
 
-.channel-list img {
-  max-height: 65px;
-  margin-right: 10px;
+.channel-photo {
+  min-width: 90px;
+  height: 90px;
+}
+
+.channel-photo > img {
+  max-height: 100%;
+  margin-left: -25%;
 }

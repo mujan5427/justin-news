@@ -718,18 +718,23 @@ body .footer {
   padding: 15px 0;
 }
 
-.channel-item > div {
+.channel-photo {
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.channel-description {
   position: relative;
 }
 
-.channel-item > div > a {
+.channel-description > a {
   display: block;
   line-height: inherit;
   max-height: 2.5em;
   overflow: hidden;
 }
 
-.channel-item > div > div {
+.channel-description > div {
   position: absolute;
   bottom: 0;
 }
