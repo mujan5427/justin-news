@@ -64,3 +64,9 @@
 .signup-area {
   margin: 30px 10px;
 }
+
+/* Popup Dialog Login is below this comment */
+
+.dialog-box-background {
+  height: calc(100% - 70px);
+}
