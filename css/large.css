@@ -122,6 +122,10 @@
 
 /* Popup Dialog Login is below this comment */
 
+.dialog-box-background {
+  height: 100%;
+}
+
 .dialog-box {
   position: relative;
   background: #ffffff;
