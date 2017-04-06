@@ -77,6 +77,10 @@
 
 /* channel.html is below this comment */
 
+.channel-box {
+  padding: 0 10px;
+}
+
 .channel-photo {
   min-width: 90px;
   height: 90px;
@@ -85,4 +89,8 @@
 .channel-photo > img {
   max-height: 100%;
   margin-left: -25%;
+}
+
+.channel-description > a:nth-child(2) {
+  display: none;
 }

@@ -699,9 +699,9 @@ body .footer {
 .channel-h1 {
   text-align: center;
   font-size: 2.2em;
-  margin: 20px 0;
+  margin: 40px 0;
   border-bottom: 3px solid #cccccc;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .channel-list {
@@ -724,19 +724,24 @@ body .footer {
 }
 
 .channel-description {
-  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
 
-.channel-description > a {
+.channel-description > a:nth-child(1) {
   display: block;
-  line-height: inherit;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.25em;
   max-height: 2.5em;
   overflow: hidden;
 }
 
-.channel-description > div {
-  position: absolute;
-  bottom: 0;
+.channel-description > a:nth-child(2) {
+  line-height: inherit;
+  max-height: 2.5em;
+  overflow: hidden;
 }
 
 .author {
