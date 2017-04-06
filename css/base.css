@@ -108,6 +108,8 @@ body .footer {
   padding: 0 30px;
   background: #3b99f0;
   color: #ffffff;
+  height: 70px;
+  line-height: 70px;
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -117,7 +119,6 @@ body .footer {
 .logo {
   display: inline-block;
   float: left;
-  line-height: 70px;
 }
 
 .navbar {
@@ -125,10 +126,11 @@ body .footer {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
+  font-size: 1.4em;
 }
 
 .navbar a {
-  padding: 27px 20px;
+  padding: 0 15px;
 }
 
 .navbar a:hover {
