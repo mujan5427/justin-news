@@ -77,6 +77,10 @@
 
 /* channel.html is below this comment */
 
+.right-panel {
+  display: none;
+}
+
 .channel-box {
   padding: 0 10px;
 }
