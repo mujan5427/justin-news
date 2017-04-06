@@ -98,3 +98,29 @@
 .channel-description > a:nth-child(2) {
   display: none;
 }
+
+/* Menu Bar is below this comment */
+
+.menu-bar-background {
+  display: block;
+  height: calc(100% - 70px);
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  margin-top: 70px;
+  overflow-y: auto;
+  background: #3b99f0;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.menu-bar-item a {
+  display: block;
+  padding: 20px 30px;
+}
+
+.menu-bar-level-2 a {
+  padding-left: 50px;
+  background: #1e6098;
+}

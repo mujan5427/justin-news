@@ -749,3 +749,9 @@ body .footer {
 .author {
   color: #ff5a5f;
 }
+
+/* Menu Bar is below this comment */
+
+.menu-bar-background {
+  display: none;
+}
