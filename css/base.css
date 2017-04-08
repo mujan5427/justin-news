@@ -408,9 +408,9 @@ body .footer {
   font-size: 2.2em;
   font-weight: bold;
   line-height: 1.2em;
-  margin: 20px 0;
-  padding-bottom: 20px;
-  border-bottom: 3px solid #cccccc;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .article-info-and-share {
@@ -455,13 +455,6 @@ body .footer {
   padding: 10px;
   line-height: 1.25em;
   letter-spacing: .2em;
-}
-
-.article-area-3 > h3 {
-  padding: 15px 20px;
-  background: #eeeeee;
-  color: #ff5a5f;
-  font-weight: bold;
 }
 
 .article-list {
@@ -699,11 +692,38 @@ body .footer {
 
 /* channel.html is below this comment */
 
+.news-list-title {
+  font-size: 1.2em;
+  background: #eeeeee;
+  padding: 10px;
+}
+
+.news-list-title:nth-of-type(1) {
+  border-left: 3px solid #d96383;
+}
+
+.news-list-title:nth-of-type(2) {
+  border-left: 3px solid #717ecd;
+}
+
+.news-list > li {
+  padding: 10px 0;
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+  letter-spacing: .1em;
+  line-height: 1.4em;
+  font-size: 1.1em;
+}
+
+.news-list > li:last-child {
+  border: 0;
+}
+
 .channel-h1 {
   text-align: center;
   font-size: 2.2em;
   font-weight: bold;
-  margin: 40px 0 0;
+  margin-top: 40px;
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 40px;
 }

@@ -99,15 +99,13 @@
 
 .article-area-3 {
   width: 30%;
+  margin-top: 40px;
+  padding-left: 80px;
   order: 2;
 }
 
 .article-content {
   margin: 40px 7% 0;
-}
-
-.article-area-3 > h3 {
-  margin-left: 30px;
 }
 
 .article-list {
@@ -145,20 +143,6 @@
 .right-panel {
   width: 30%;
   padding-left: 80px;
-}
-
-.right-panel > h3 {
-  font-size: 1.2em;
-  background: #eeeeee;
-  padding: 10px;
-}
-
-.right-panel > h3:nth-of-type(1) {
-  border-left: 3px solid #d96383;
-}
-
-.right-panel > h3:nth-of-type(2) {
-  border-left: 3px solid #717ecd;
 }
 
 .channel-h1 {
@@ -210,17 +194,4 @@
   line-height: 1.6em;
   max-height: 6.4em;
   overflow: hidden;
-}
-
-.news-list > li {
-  padding: 10px 0;
-  margin: 10px;
-  border-bottom: 1px solid #ccc;
-  letter-spacing: .1em;
-  line-height: 1.4em;
-  font-size: 1.1em;
-}
-
-.news-list > li:last-child {
-  border: 0;
 }
