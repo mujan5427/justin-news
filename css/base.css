@@ -81,6 +81,25 @@ a {
   font-size: 1.5em;
 }
 
+.button-social-media-share {
+  display: inline-block;
+  margin: 3px;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  font-size: 20px;
+  background: #555555;
+  text-align: center;
+}
+
+.button-social-media-share i {
+  line-height: 40px;
+}
+
+.button-social-media-share:hover {
+  background: #626262;
+}
+
 /* all of custom input component end */
 
 
@@ -88,7 +107,7 @@ a {
 
 /* header is below this comment */
 
-.header {
+header {
   padding: 0 30px;
   background: #3b99f0;
   color: #ffffff;
@@ -255,49 +274,24 @@ body > nav {
 
 /* footer is below this comment */
 
-.footer {
+footer {
   padding-top: 30px;
   background: #444444;
   color: #cccccc;
 }
 
-.footer-title {
+.footer-section-main > div {
+  max-width: 200px;
+}
+
+footer h1 {
   font-size: 20px;
   font-weight: bold;
   padding: 25px 0;
 }
 
-.footer li {
+footer li {
   padding: 5px 0;
-}
-
-.footer-section1 {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
-.footer-social-media {
-  max-width: 250px;
-}
-
-.footer-icon {
-  display: inline-flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-  margin: 3px;
-  height: 40px;
-  width: 40px;
-  border-radius: 25px;
-  font-size: 20px;
-  background: #555555;
-}
-
-.footer-icon:hover {
-  background: #626262;
 }
 
 /* Popup Dialog Login is below this comment */

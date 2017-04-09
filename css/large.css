@@ -64,7 +64,7 @@
   font-size: 1.8em;
 }
 
-.footer-section1 {
+.footer-section-main {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -72,7 +72,7 @@
   margin: 0 auto;
 }
 
-.footer-section2 {
+.footer-section-legal-declaration {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;

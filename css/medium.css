@@ -73,8 +73,7 @@ body > nav {
   margin: 40px 0 0;
 }
 
-
-.footer-section1 {
+.footer-section-main {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -82,7 +81,7 @@ body > nav {
   text-align: center;
 }
 
-.footer-section2 {
+.footer-section-legal-declaration {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
