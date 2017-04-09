@@ -17,29 +17,13 @@ a {
   text-decoration: none;
 }
 
-/* contents' background color */
-
-/*.content {
-  background: blue;
-}
-.content1 {
-  background: #ff5b60;
-}
-.pagination {
-  background: #e9e72a;
-}
-body .footer {
-  background: black;
-}*/
-
-
 /* all of custom input component */
 
 .custom-input-text-box {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  margin: 20px 0;
+  /*margin: 20px 0;*/
   color: #76787a;
   border: 1px solid #e9eff2;
   color: inherit;
@@ -111,7 +95,7 @@ body .footer {
   height: 70px;
   line-height: 70px;
   position: fixed;
-  z-index: 999;
+  z-index: 1;
   width: 100%;
   box-shadow: 0 0 3px rgba(0,0,0,.9);
 }
@@ -121,7 +105,7 @@ body .footer {
   float: left;
 }
 
-.navbar {
+header > nav {
   float: right;
   display: flex;
   flex-flow: row nowrap;
@@ -129,30 +113,35 @@ body .footer {
   font-size: 1.4em;
 }
 
-.navbar a {
+header > nav a {
   padding: 0 15px;
 }
 
-.navbar a:hover {
+header > nav a:hover {
   /*background: #1e6098;*/
   background: rgba(255, 255, 255, 0.2)
+}
+
+/* Mobile Menu Bar is below this comment */
+
+body > nav {
+  display: none;
 }
 
 /* search box is below this comment */
 
 .search-box-background {
   position: fixed;
-  z-index: 999;
+  z-index: 2;
   width: 100%;
-  top: 0;
-  margin-top: 70px;
+  top: 70px;
   overflow-y: auto;
 }
 
 .search-box {
   position: relative;
   margin: 0 auto;
-  padding: 1px 30px 40px;
+  padding: 0 30px 40px;
   background: #ffffff;
   width: 100%;
   max-width: 500px;
@@ -332,7 +321,6 @@ body .footer {
 
 .dialog-box > h1 {
   font-size: 30px;
-  margin-bottom: 50px;
   padding-bottom: 30px;
   border-bottom: 3px solid #ff5a5f;
 }
@@ -340,7 +328,6 @@ body .footer {
 .custom-close-dialog-button {
   display: block;
   text-align: right;
-  padding-right: 10px;
 }
 
 .icon-position-box {
@@ -352,7 +339,7 @@ body .footer {
 
 .forget-password {
   text-align: right;
-  margin: 20px 0;
+  margin-top: 20px;
   font-size: 14px;
 }
 
@@ -393,9 +380,9 @@ body .footer {
 
 /* Popup Dialog Message is below this comment */
 
-.custom-message-box {
+.dialog-content {
   line-height: 30px;
-  margin-bottom: 80px;
+  margin: 30px 0;
 }
 
 /* article.html is below this comment */
@@ -770,10 +757,4 @@ body .footer {
 
 .author {
   color: #ff5a5f;
-}
-
-/* Menu Bar is below this comment */
-
-.menu-bar-background {
-  display: none;
 }

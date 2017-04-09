@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta lang="zh">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin News</title>
     <link rel="stylesheet" href="css/reset.css">
@@ -13,10 +14,9 @@
 
   <body>
 
-    <!-- Header -->
     <header class="header">
       <a class="logo" href="">Justin News</a>
-      <div class="navbar">
+      <nav>
         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
         <a class="show-in-mweb" href="#"><i class="fa fa-reorder" aria-hidden="true"></i></a>
         <a class="disable-in-mweb" href="#">國際</a>
@@ -24,17 +24,17 @@
         <a class="disable-in-mweb" href="#">生活</a>
         <a class="disable-in-mweb" href="#">登入</a>
         <a class="disable-in-mweb" href="#">註冊</a>
-      </div>
+      </nav>
     </header>
 
     <!-- Mobile Menu Bar -->
-    <!-- <div class="menu-bar-background">
-      <ul class="menu-bar-level-1">
+    <!-- <nav>
+      <ul>
         <li class="menu-bar-item">
             <a href="">頻道
               <i class="fa fa-angle-down" aria-hidden="true"></i>
             </a>
-          <ul class="menu-bar-level-2">
+          <ul class="menu-bar-inner-layer">
             <li class="menu-bar-item">
               <a href="">國際</a>
             </li>
@@ -56,7 +56,7 @@
           <a href="">登出</a>
         </li>
       </ul>
-    </div> -->
+    </nav> -->
 
     <!-- Search Bar -->
     <!-- <div class="search-box-background">
@@ -295,20 +295,22 @@
       <div class="dialog-box">
         <a href="" class="custom-close-dialog-button"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
         <h1>登入</h1>
-        <div class="custom-input-text-box">
-          <div>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
+        <div class="dialog-content">
+          <div class="custom-input-text-box">
+            <div>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <input type="text" placeholder="電子郵件">
           </div>
-          <input type="text" placeholder="電子郵件">
-        </div>
-        <div class="custom-input-text-box">
-          <div>
-            <i class="fa fa-lock" aria-hidden="true"></i>
+          <div class="custom-input-text-box">
+            <div>
+              <i class="fa fa-lock" aria-hidden="true"></i>
+            </div>
+            <input type="password" placeholder="密碼">
           </div>
-          <input type="password" placeholder="密碼">
-        </div>
-        <div class="forget-password">
-          <a href="">忘記密碼?</a>
+          <div class="forget-password">
+            <a href="">忘記密碼?</a>
+          </div>
         </div>
         <a href="" class="custom-button">登入</a>
         <div class="custom-horizontal-line">
@@ -323,7 +325,7 @@
       <div class="dialog-box">
         <a href="" class="custom-close-dialog-button"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
         <h1>註冊成功</h1>
-        <div class="custom-message-box">恭喜您註冊成功，成為 Justin News 的會員！<br>請點選下方按鈕登入網站，已確認帳號及密碼。</div>
+        <div class="dialog-content">恭喜您註冊成功，成為 Justin News 的會員！<br>請點選下方按鈕登入網站，已確認帳號及密碼。</div>
         <a href="" class="custom-button">登入</a>
       </div>
     </div> -->
