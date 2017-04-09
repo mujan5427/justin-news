@@ -55,7 +55,7 @@ body > nav {
   line-height: 1.5em;
 }
 
-.article-row {
+.news-list {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
