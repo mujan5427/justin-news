@@ -66,7 +66,7 @@ body > nav {
   padding: 0 10px;
 }
 
-.article-area {
+.channel-section-wrapper {
   padding: 0 10px;
 }
 
@@ -113,7 +113,7 @@ body > nav {
 
 /* channel.html is below this comment */
 
-.right-panel {
+.channel-section:nth-of-type(2) {
   display: none;
 }
 

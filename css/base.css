@@ -244,12 +244,12 @@ body > nav {
 
 /* pagination is below this comment */
 
-.pagination {
+.channel-section:nth-of-type(3) {
   width: 100%;
   margin: 50px 0;
 }
 
-.pagination > div {
+.pagination > h1 {
   text-align: center;
   margin-bottom: 20px;
 }

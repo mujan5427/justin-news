@@ -136,13 +136,18 @@
 
 /* channel.html is below this comment */
 
-.left-panel {
+.channel-section-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.channel-section:nth-of-type(1) {
   width: 70%;
 }
 
-.right-panel {
-  width: 30%;
-  padding-left: 80px;
+.channel-section:nth-of-type(2) {
+  width: calc(30% - 80px);
+  margin-left: 80px;
 }
 
 .channel-h1 {
@@ -152,30 +157,6 @@
 .channel-list {
   margin-bottom: 50px;
   font-size: 1.4em;
-}
-
-.channel-list > li:nth-child(1) {
-  flex-flow: column nowrap;
-  padding: 0 0 15px;
-}
-
-.channel-list > li:nth-child(1) > .channel-photo {
-  height: inherit;
-  max-width: inherit;
-  margin-right: 0;
-}
-
-.channel-list > li:nth-child(1) > .channel-photo img {
-  max-height: inherit;
-  margin-left: 0;
-}
-
-.channel-list > li:nth-child(1) > .channel-description > a:nth-child(2) {
-  display: none;
-}
-
-.channel-list > li:nth-child(1) > .channel-description * {
-  margin: 15px 0;
 }
 
 .channel-photo {
@@ -194,4 +175,27 @@
   line-height: 1.6em;
   max-height: 6.4em;
   overflow: hidden;
+}
+
+.channel-list > li:nth-child(1) {
+  flex-flow: column nowrap;
+  padding: 0 0 15px;
+}
+
+.channel-list > li:nth-child(1) > .channel-photo {
+  height: inherit;
+  max-width: inherit;
+  margin-right: 0;
+}
+
+.channel-list > li:nth-child(1) > .channel-photo img {
+  margin-left: 0;
+}
+
+.channel-list > li:nth-child(1) > .channel-description > a:nth-child(2) {
+  display: none;
+}
+
+.channel-list > li:nth-child(1) > .channel-description * {
+  margin: 15px 0;
 }
