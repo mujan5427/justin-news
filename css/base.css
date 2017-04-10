@@ -17,7 +17,7 @@ a {
   text-decoration: none;
 }
 
-/* all of custom input component */
+/* all of custom component */
 
 .custom-input-text-box {
   display: flex;
@@ -107,7 +107,19 @@ a {
   background: #555555;
 }
 
-/* all of custom input component end */
+figure > img {
+  display: block;
+  width: 100%;
+}
+
+figure > figcaption {
+  background: #eeeeee;
+  padding: 10px;
+  line-height: 1.25em;
+  letter-spacing: .2em;
+}
+
+/* all of custom component end */
 
 
 
@@ -200,11 +212,11 @@ body > nav {
 
 /* content1 is below this comment */
 
-.index-section-article-area {
+.index-section {
   margin-bottom: 70px;
 }
 
-.index-section-article-area > h2 {
+.index-section > h2 {
   margin: 0 15px 30px;
   padding-top: 30px;
   font-size: 2em;
@@ -388,7 +400,12 @@ footer li {
 
 /* article.html is below this comment */
 
-.article-section-article-area:nth-of-type(1) > h1 {
+.article-section:nth-of-type(1) {
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.article-section:nth-of-type(1) > h1 {
   font-size: 2.2em;
   font-weight: bold;
   line-height: 1.2em;
@@ -420,18 +437,6 @@ footer li {
   font-weight: bold;
 }
 
-.article-area-1-main-photo > img {
-  display: block;
-  width: 100%;
-}
-
-.article-area-1-main-photo > figcaption {
-  background: #eeeeee;
-  padding: 10px;
-  line-height: 1.25em;
-  letter-spacing: .2em;
-}
-
 .article-list {
   margin-bottom: 50px;
   font-size: 20px;
@@ -450,11 +455,11 @@ footer li {
   text-decoration: underline;
 }
 
-.article-section-article-area:nth-of-type(2) {
+.article-section:nth-of-type(2) {
   margin: 100px 0;
 }
 
-.article-section-article-area:nth-of-type(2) > h1 {
+.article-section:nth-of-type(2) > h1 {
   text-align: center;
   margin: 0 15px;
   padding: 50px 0;
