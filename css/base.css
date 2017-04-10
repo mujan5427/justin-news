@@ -119,8 +119,45 @@ figure > figcaption {
   letter-spacing: .2em;
 }
 
-/* all of custom component end */
+.input-item {
+  margin: 30px 0;
+}
 
+.input-item > label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input {
+  border: 1px solid #aaaaaa;
+  color: #76787a;
+  border-radius: 4px;
+  background-color: #ffffff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid purple;
+}
+
+.text {
+  font-size: inherit;
+  padding: 14px 12px;
+  width: 100%;
+}
+
+.select {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: 1.2em;
+  padding: 14px 2em 14px 12px;
+}
+
+/* all of custom component end */
+/* [custom end] */
 
 
 
@@ -357,8 +394,7 @@ footer li {
 }
 
 .custom-button {
-  box-sizing: border-box;
-  display: inline-block;
+  display: block;
   text-align: center;
   color: #ffffff;
   background: #ff5a5f;
@@ -385,6 +421,7 @@ footer li {
 .fb-login {
   max-width: 180px;
   background: #31589c;
+  margin: 0 auto;
 }
 
 .fb-login > i {
@@ -493,33 +530,11 @@ footer li {
   margin-bottom: 40px;
 }
 
-.custom-input-box {
-  margin: 30px 0;
-}
-
-.custom-input-box > label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.custom-input-box .text {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: 1px solid #aaa;
-  color: #76787a;
-  font-size: inherit;
-  border-radius: 4px;
-  background-color: #ffffff;
-  padding: 14px 12px;
-  width: 100%;
-}
-
 .vertical-middle-53 {
   line-height: 53px;
 }
 
-.form-tip {
+.input-item-tip {
   font-size: 16px;
   line-height: 1.5em;
   margin-top: 10px;
@@ -529,20 +544,6 @@ footer li {
 .select-box {
   position: relative;
   display: inline-block;
-}
-
-.select {
-  border: 1px solid #aaa;
-  color: #76787a;
-  font-size: inherit;
-  font-family: inherit;
-  line-height: 1.2em;
-  border-radius: 4px;
-  background-color: #ffffff;
-  padding: 14px 2em 14px 12px;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
 }
 
 .select-box::before {
@@ -558,21 +559,20 @@ footer li {
   -webkit-transform: scale(0.84, 0.42);
 }
 
-.select:focus {
-  outline: none;
-  /*border: 1px solid yellow;*/
+.signup-section .radiobox,
+.signup-section .checkbox {
+  margin-top: 17px;
 }
 
-.radio-box {
-  margin-top: 17px;
+.radiobox {
   display: inline-block;
 }
 
-.radio {
+.radiobox > input[type=radio] {
   display: none;
 }
 
-.radio-box > label {
+.radiobox > label {
   position: relative;
   display: inline-block;
   color: #76787a;
@@ -581,7 +581,7 @@ footer li {
   line-height: 22px;
 }
 
-.radio-box > label::before {
+.radiobox > label::before {
   content: '';
   position: absolute;
   height: 18px;
@@ -614,16 +614,15 @@ footer li {
 
 /* checkbox is below this comment */
 
-.checkbox-box {
-  margin-top: 17px;
+.checkbox {
   display: inline-block;
 }
 
-.checkbox {
+.checkbox > input[type=checkbox] {
   display: none;
 }
 
-.checkbox-box > label {
+.checkbox > label {
   position: relative;
   display: inline-block;
   color: #76787a;
@@ -632,7 +631,7 @@ footer li {
   line-height: 22px;
 }
 
-.checkbox-box > label::before {
+.checkbox > label::before {
   content: '';
   position: absolute;
   height: 18px;
@@ -665,10 +664,9 @@ footer li {
   transform-origin: bottom right;
 }
 
-.signup-button {
-  text-align: center;
-  max-width: 25%;
-  margin: 50px auto 0;
+.signup-section .custom-button {
+  width: 260px;
+  margin: 0 auto;
 }
 
 /* channel.html is below this comment */
