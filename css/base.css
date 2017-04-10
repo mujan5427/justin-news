@@ -595,7 +595,7 @@ footer li {
   left: 0;
 }
 
-.radio:checked + label::after {
+.radiobox > input[type=radio]:checked + label::after {
   content: '';
   position: absolute;
   height: 18px;
@@ -642,12 +642,12 @@ footer li {
   left: 0;
 }
 
-.checkbox:checked + label::before {
+.checkbox > input[type=checkbox]:checked + label::before {
   background-color: #3b99f0;
   border: 2px solid #3b99f0;
 }
 
-.checkbox:checked + label::after {
+.checkbox > input[type=checkbox]:checked + label::after {
   content: '';
   position: absolute;
   top: 1px;
