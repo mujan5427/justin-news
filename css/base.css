@@ -541,12 +541,12 @@ footer li {
   color: #aaaaaa;
 }
 
-.select-box {
+.selectbox {
   position: relative;
   display: inline-block;
 }
 
-.select-box::before {
+.selectbox::before {
   content: '\25bc';
   position: absolute;
   pointer-events: none;
