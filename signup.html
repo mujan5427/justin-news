@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta lang="zh">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin News</title>
     <link rel="stylesheet" href="css/reset.css">
@@ -13,48 +14,25 @@
 
   <body>
 
-    <!-- Header -->
-    <header class="header">
+    <header>
       <a class="logo" href="">Justin News</a>
-      <div class="navbar">
+      <nav>
+        <!-- 搜尋按鈕 -->
         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-        <a class="show-in-mweb" href="#">選單</a>
+        <!-- 選單按鈕 -->
+        <a class="show-in-mweb" href="#"><i class="fa fa-reorder" aria-hidden="true"></i></a>
         <a class="disable-in-mweb" href="#">國際</a>
         <a class="disable-in-mweb" href="#">財經</a>
         <a class="disable-in-mweb" href="#">生活</a>
         <a class="disable-in-mweb" href="#">登入</a>
         <a class="disable-in-mweb" href="#">註冊</a>
-      </div>
+        <a class="disable-in-mweb" href="">何宗軒</a>
+      </nav>
     </header>
-
-    <!-- Search Bar -->
-    <!-- <div class="search-box-background">
-      <div class="search-box">
-        <div class="custom-input-text-box">
-          <div class="icon-position-box">
-            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
-          </div>
-          <input class="custom-input-text custom-search-bar" placeholder="請輸入關鍵字搜尋">
-        </div>
-
-        <div class="search-keyword-area">
-          <a class="label-hot-keyword" href="">亞投行</a>
-          <a class="label-hot-keyword" href="">倫敦恐攻</a>
-          <a class="label-hot-keyword" href="">南海</a>
-          <a class="label-hot-keyword" href="">台灣美食</a>
-          <a class="label-hot-keyword" href="">川普</a>
-          <a class="label-hot-keyword" href="">兩岸</a>
-          <a class="label-hot-keyword" href="">薩德</a>
-          <a class="label-hot-keyword" href="">出雲號</a>
-        </div>
-
-        <a href="" class="custom-button">搜尋</a>
-      </div>
-    </div> -->
 
     <!-- Content -->
     <div class="content">
-      <div class="signup-area">
+      <div class="signup-section">
         <h1>註冊</h1>
 
         <div class="custom-input-box">
@@ -336,11 +314,10 @@
       </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-section1">
+    <footer>
+      <div class="footer-section-main">
         <div>
-          <h4 class="footer-title">認識 Justin News</h4>
+          <h1>認識 Justin News</h1>
           <ul>
             <li><a href="#">關於 Justin News</a></li>
             <li><a href="#">媒體報導</a></li>
@@ -350,7 +327,7 @@
           </ul>
         </div>
         <div>
-          <h4 class="footer-title">數據分析</h4>
+          <h1>數據分析</h1>
           <ul>
             <li><a href="#">熱門關鍵字</a></li>
             <li><a href="#">群眾分析</a></li>
@@ -358,7 +335,7 @@
           </ul>
         </div>
         <div>
-          <h4 class="footer-title">合作方案</h4>
+          <h1>合作方案</h1>
           <ul>
             <li><a href="#">廣告刊登/合作提案</a></li>
             <li><a href="#">聯盟行銷</a></li>
@@ -366,42 +343,98 @@
             <li><a href="#">我要投稿</a></li>
           </ul>
         </div>
-        <div class="footer-social-media">
-          <h4 class="footer-title">社群媒體</h4>
-          <a href="#"><div class="footer-icon"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
-          <a href="#"><div class="footer-icon"><i class="fa fa-youtube" aria-hidden="true"></i></div></a>
-          <a href="#"><div class="footer-icon"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
-          <a href="#"><div class="footer-icon"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
-          <a href="#"><div class="footer-icon"><i class="fa fa-weibo" aria-hidden="true"></i></div></a>
-          <a href="#"><div class="footer-icon"><i class="fa fa-qq" aria-hidden="true"></i></div></a>
-          <a href="#"><div class="footer-icon"><i class="fa fa-wechat" aria-hidden="true"></i></div></a>
+        <div>
+          <h1>社群媒體</h1>
+          <a href="#"><div class="button-social-media-share background-dark-gray"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
+          <a href="#"><div class="button-social-media-share background-dark-gray"><i class="fa fa-youtube" aria-hidden="true"></i></div></a>
+          <a href="#"><div class="button-social-media-share background-dark-gray"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+          <a href="#"><div class="button-social-media-share background-dark-gray"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
+          <a href="#"><div class="button-social-media-share background-dark-gray"><i class="fa fa-weibo" aria-hidden="true"></i></div></a>
+          <a href="#"><div class="button-social-media-share background-dark-gray"><i class="fa fa-qq" aria-hidden="true"></i></div></a>
+          <a href="#"><div class="button-social-media-share background-dark-gray"><i class="fa fa-wechat" aria-hidden="true"></i></div></a>
         </div>
       </div>
-      <div class="footer-section2">
+      <div class="footer-section-legal-declaration">
         <div>COPYRIGHT © 2017 Justin News</div>
         <div>&nbsp;All rights reserved.</div>
       </div>
     </footer>
 
+    <!-- Mobile Menu Bar -->
+    <!-- <nav>
+      <ul>
+        <li class="menu-bar-item">
+            <a href="">頻道
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          <ul class="menu-bar-inner-layer">
+            <li class="menu-bar-item">
+              <a href="">國際</a>
+            </li>
+            <li class="menu-bar-item">
+              <a href="">財經</a>
+            </li>
+            <li class="menu-bar-item">
+              <a href="">生活</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-bar-item">
+          <a href="">註冊</a>
+        </li>
+        <li class="menu-bar-item">
+          <a href="">登入</a>
+        </li>
+        <li class="menu-bar-item">
+          <a href="">登出</a>
+        </li>
+      </ul>
+    </nav> -->
+
+    <!-- Search Bar -->
+    <!-- <div class="search-box-background">
+      <div class="search-box">
+        <div class="custom-input-text-box custom-search-bar">
+          <div>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+          <input type="text" placeholder="請輸入關鍵字">
+        </div>
+        <div class="search-keyword-area">
+          <a class="label-hot-keyword" href="">亞投行</a>
+          <a class="label-hot-keyword" href="">倫敦恐攻</a>
+          <a class="label-hot-keyword" href="">南海</a>
+          <a class="label-hot-keyword" href="">台灣美食</a>
+          <a class="label-hot-keyword" href="">川普</a>
+          <a class="label-hot-keyword" href="">兩岸</a>
+          <a class="label-hot-keyword" href="">薩德</a>
+          <a class="label-hot-keyword" href="">出雲號</a>
+        </div>
+        <a href="" class="custom-button">搜尋</a>
+      </div>
+    </div> -->
+
     <!-- Popup Dialog Login-->
     <!-- <div class="dialog-box-background">
       <div class="dialog-box">
-        <h1>登入</h1>
         <a href="" class="custom-close-dialog-button"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
-        <div class="custom-input-text-box">
-          <div class="icon-position-box">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
+        <h1>登入</h1>
+        <div class="dialog-content">
+          <div class="custom-input-text-box">
+            <div>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <input type="text" placeholder="電子郵件">
           </div>
-          <input class="custom-input-text" placeholder="電子郵件信箱">
-        </div>
-        <div class="custom-input-text-box">
-          <div class="icon-position-box">
-            <i class="fa fa-lock" aria-hidden="true"></i>
+          <div class="custom-input-text-box">
+            <div>
+              <i class="fa fa-lock" aria-hidden="true"></i>
+            </div>
+            <input type="password" placeholder="密碼">
           </div>
-          <input class="custom-input-text" type="password" placeholder="密碼">
-        </div>
-        <div class="forget-password">
-          <a href="">忘記密碼?</a>
+          <div class="forget-password">
+            <a href="">忘記密碼?</a>
+          </div>
         </div>
         <a href="" class="custom-button">登入</a>
         <div class="custom-horizontal-line">
@@ -414,9 +447,9 @@
     <!-- Popup Dialog Message -->
     <!-- <div class="dialog-box-background">
       <div class="dialog-box">
-        <h1>註冊成功</h1>
         <a href="" class="custom-close-dialog-button"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
-        <div class="custom-message-box">恭喜您註冊成功，成為 Justin News 的會員！<br>請點選下方按鈕登入網站，已確認帳號及密碼。</div>
+        <h1>註冊成功</h1>
+        <div class="dialog-content">恭喜您註冊成功，成為 Justin News 的會員！<br>請點選下方按鈕登入網站，已確認帳號及密碼。</div>
         <a href="" class="custom-button">登入</a>
       </div>
     </div> -->
