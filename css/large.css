@@ -1,7 +1,7 @@
-/* 裝置螢幕寬度在 768px 以下 */
+/* 裝置螢幕寬度在 768px 以上 */
 
 .logo {
-  font-size: 42px;
+  font-size: 2.625em;
 }
 
 .show-in-mweb {

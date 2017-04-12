@@ -1,7 +1,7 @@
 /* 裝置螢幕寬度在 768px 以下 */
 
 .logo {
-  font-size: 22px;
+  font-size: 1.375em;
 }
 
 .disable-in-mweb {
