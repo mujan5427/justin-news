@@ -33,7 +33,8 @@ a {
 }
 
 .input-box > input[type=text],
-.input-box > input[type=password] {
+.input-box > input[type=password],
+.input-box > input[type=email] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -51,7 +52,8 @@ a {
 }
 
 .input-box-light > input[type=text],
-.input-box-light > input[type=text] {
+.input-box-light > input[type=password],
+.input-box-light > input[type=email] {
   color: #484848;
 }
 
