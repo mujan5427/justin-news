@@ -11,7 +11,7 @@
 /* Menu Bar is below this comment */
 
 body > nav {
-  display: block;
+  display: none;
   height: calc(100% - 70px);
   position: fixed;
   z-index: 3;
