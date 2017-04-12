@@ -332,6 +332,12 @@ footer li {
 
 /* Popup Dialog Login is below this comment */
 
+/*Dialog 彈出時，body 要調整 overflow，才不會讓背景一直被滑動
+
+body {
+  overflow: hidden;
+}*/
+
 .dialog-box-background {
   display: none;
   width: 100%;
