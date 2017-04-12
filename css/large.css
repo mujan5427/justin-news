@@ -52,16 +52,16 @@
   padding: 15px;
 }
 
+.row-2 * div.news-list-figcaption {
+  font-size: 1.8em;
+}
+
 .row-2 img {
   max-height: 300px;
 }
 
 .row-3 img {
   max-height: 250px;
-}
-
-.font-size-1-8 {
-  font-size: 1.8em;
 }
 
 .footer-section-main {
