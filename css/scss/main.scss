@@ -1,6 +1,4 @@
-/* 此檔案彙整所有 scss 檔案，方便維護各個 partical scss 檔案
- *
- */
+/* 此檔案彙整所有 scss 檔案，方便維護各個 partical scss 檔案 */
 
 @import 'helpers/variables';
 @import 'base/base';
@@ -8,7 +6,7 @@
 @import 'layout/header';
 @import 'layout/footer';
 
-// 以下為各頁面框架的樣式
+/* 以下為各頁面框架的樣式 */
 
 @import 'layout/index';
 @import 'layout/article';
