@@ -274,6 +274,10 @@ figure > figcaption {
   width: 100%;
   top: 70px;
   overflow-y: auto;
+
+  @include mq-medium {
+    height: calc(100% - 70px);
+  }
 }
 
 .search-box {
@@ -368,6 +372,10 @@ figure > figcaption {
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 70px;
+
+  @include mq-medium {
+    height: calc(100% - 70px);
+  }
 }
 
 .dialog-box {
@@ -376,6 +384,24 @@ figure > figcaption {
   border-radius: 10px;
   text-align: center;
   padding: 15px 20px;
+
+  @include mq-medium {
+    margin: 10px;
+  }
+
+  @include mq-medium-up {
+    position: relative;
+    background: #ffffff;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    top: 50%;
+    left: 50%;
+    /* calc(-50%, - 35px) The 35px equal height of header divided by 2*/
+    transform: translate(-50%, calc(-50% - 35px));
+  }
 }
 
 .custom-close-dialog-button {
@@ -480,4 +506,30 @@ figure > figcaption {
 
 body > nav {
   display: none;
+
+  @include mq-medium {
+    display: none;
+    height: calc(100% - 70px);
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    margin-top: 70px;
+    overflow-y: auto;
+    background: #3b99f0;
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+}
+
+@include mq-medium {
+  .menu-bar-item a {
+    display: block;
+    padding: 20px 30px;
+  }
+
+  .menu-bar-inner-layer a {
+    padding-left: 50px;
+    background: #1e6098;
+  }
 }

@@ -1,3 +1,15 @@
+.disable-in-mweb {
+  @include mq-medium {
+    display: none;
+  }
+}
+
+.show-in-mweb {
+  @include mq-medium-up {
+    display: none;
+  }
+}
+
 header {
   padding: 0 30px;
   background: $official-blue;
@@ -13,6 +25,14 @@ header {
 .logo {
   display: inline-block;
   float: left;
+
+  @include mq-medium {
+    font-size: 1.375em;
+  }
+
+  @include mq-medium-up {
+    font-size: 2.625em;
+  }
 }
 
 header > nav {
