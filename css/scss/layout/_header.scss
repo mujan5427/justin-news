@@ -1,0 +1,34 @@
+/* header is below this comment */
+
+header {
+  padding: 0 30px;
+  background: $official-blue;
+  color: #ffffff;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  box-shadow: 0 0 3px rgba(0,0,0,.9);
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+}
+
+header > nav {
+  float: right;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  font-size: 1.4em;
+
+  a {
+    padding: 0 15px;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2)
+    }
+  }
+}

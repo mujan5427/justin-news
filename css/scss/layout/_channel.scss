@@ -1,0 +1,59 @@
+/* channel.html is below this comment */
+
+.channel-section:nth-of-type(3) {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.channel-title {
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-top: 40px;
+  border-bottom: 1px solid $horizontal-line-color;
+  padding-bottom: 40px;
+}
+
+.channel-list {
+  margin-bottom: 50px;
+  font-size: .9em;
+  line-height: 1.25em;
+  letter-spacing: .1em;
+}
+
+.channel-item {
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 1px solid $official-red;
+  padding: 15px 0;
+}
+
+.channel-photo {
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.channel-description {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.channel-description > a:nth-child(1) {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.25em;
+  max-height: 2.5em;
+  overflow: hidden;
+}
+
+.channel-description > a:nth-child(2) {
+  line-height: inherit;
+  max-height: 2.5em;
+  overflow: hidden;
+}
+
+.author {
+  color: $official-red;
+}

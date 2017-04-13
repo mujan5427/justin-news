@@ -1,0 +1,34 @@
+/* index.html is below this comment */
+
+.index-section {
+  margin-bottom: 70px;
+}
+
+.index-section > h2 {
+  margin: 0 15px 30px;
+  padding-top: 30px;
+  font-size: 2em;
+  border-top: 2px solid $horizontal-line-color;
+}
+
+.news-list {
+  font-size: 1.3em;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.news-list-figcaption {
+  padding: 10px;
+  line-height: 1.5em;
+}
+
+/* slider bar is below this comment */
+
+.slider-bar-image-clip-box > img {
+  display: block;
+  width: 100%;
+}
