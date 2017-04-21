@@ -16,14 +16,14 @@
       <a class="logo" href="">Justin News</a>
       <nav>
         <!-- 搜尋按鈕 -->
-        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+        <a id="btn_search" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
         <!-- 選單按鈕 -->
         <a class="show-in-mweb" href="#"><i class="fa fa-reorder" aria-hidden="true"></i></a>
         <a class="disable-in-mweb" href="#">國際</a>
         <a class="disable-in-mweb" href="#">財經</a>
         <a class="disable-in-mweb" href="#">生活</a>
-        <a class="disable-in-mweb" href="#">登入</a>
-        <a class="disable-in-mweb" href="#">註冊</a>
+        <a id="btn_navLogin" class="disable-in-mweb" href="#">登入</a>
+        <a id="btn_navSignup" class="disable-in-mweb" href="#">註冊</a>
         <a class="disable-in-mweb" href="">何宗軒</a>
       </nav>
     </header>
@@ -33,7 +33,7 @@
 
       <section>
         <!-- Slider Bar -->
-        <div class="slider-bar">
+        <div id="slideBar" class="slider-bar">
           <div class="slider-bar-image-clip-box">
             <img src="./asset/main-page/img01.jpg">
           </div>
@@ -61,7 +61,7 @@
 
       <section class="index-section">
         <h2><a href="">國際</a></h2>
-        <div class="news-list">
+        <div id="indexSection_Channel1" class="news-list">
           <div class="row-3">
             <a href="">
               <img src="./asset/main-page/img04.jpg">
@@ -103,7 +103,7 @@
 
       <section class="index-section">
         <h2><a href="">財經</a></h2>
-        <div class="news-list">
+        <div id="indexSection_Channel2" class="news-list">
           <div class="row-3">
             <a href="">
               <img src="./asset/main-page/img10.jpg">
@@ -144,8 +144,8 @@
       </section>
 
       <section class="index-section">
-        <h2><a href="">生活</a></h2>
-        <div class="news-list">
+        <h2><a href="">藝文</a></h2>
+        <div id="indexSection_Channel3" class="news-list">
           <div class="row-3">
             <a href="">
               <img src="./asset/main-page/img16.jpg">
@@ -266,7 +266,7 @@
     </nav>
 
     <!-- Search Bar -->
-    <div class="search-box-background">
+    <div id="searchBar" class="search-box-background">
       <div class="search-box">
         <div class="input-box custom-search-bar">
           <i class="fa fa-search" aria-hidden="true"></i>
